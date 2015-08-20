@@ -28,51 +28,51 @@ Below it is shown its field list.
 
 Note: I am not sure if definitions are completely correct (sorry but I am not an expert in accelerometers and gyroscopes)...
 
-||Variable Name|Definition|Variable Type|Values supported|
+||Variable Name|Definition|Variable Type|Values Supported and Units|
 |--------|------|--------------|----------|--------------|
 |01| subject | Volunteer code | INTEGER | 1 to 30 |                  
 |02| activity_id | Activity code | INTEGER | 1 to 6 |             
 |03| activity_name | Activity name | CHARACTER | "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" or "LAYING" |
-|04| tBodyAcc_mean_X | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |     
-|05| tBodyAcc_mean_Y | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|06| tBodyAcc_mean_Z | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|07| tBodyAcc_std_X | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
-|08| tBodyAcc_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |
-|09| tBodyAcc_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
-|10| tGravityAcc_mean_X | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |
-|11| tGravityAcc_mean_Y | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|12| tGravityAcc_mean_Z | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|13| tGravityAcc_std_X | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |         
-|14| tGravityAcc_std_Y | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|15| tGravityAcc_std_Z | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|16| tBodyAccJerk_mean_X | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
-|17| tBodyAccJerk_mean_Y | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|18| tBodyAccJerk_mean_Z | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|19| tBodyAccJerk_std_X | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|20| tBodyAccJerk_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
-|21| tBodyAccJerk_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|22| tBodyGyro_mean_X | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |         
-|23| tBodyGyro_mean_Y | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|24| tBodyGyro_mean_Z | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|25| tBodyGyro_std_X | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|26| tBodyGyro_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|27| tBodyGyro_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|28| tBodyGyroJerk_mean_X | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |
-|29| tBodyGyroJerk_mean_Y | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
-|30| tBodyGyroJerk_mean_Z | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
-|31| tBodyGyroJerk_std_X | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|32| tBodyGyroJerk_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
-|33| tBodyGyroJerk_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|34| tBodyAccMag_mean | Average of Time Domain Mean of 3-axial Body Linear Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|35| tBodyAccMag_std | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
-|36| tGravityAccMag_mean | Average of Time Domain Mean of 3-axial Gravity Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |     
-|37| tGravityAccMag_std | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |        
-|38| tBodyAccJerkMag_mean | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |       
-|39| tBodyAccJerkMag_std | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |   
-|40| tBodyGyroMag_mean | Average of Time Domain Mean of 3-axial Body Angular Velocity calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |          
-|41| tBodyGyroMag_std | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |         
-|42| tBodyGyroJerkMag_mean | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |     
-|43| tBodyGyroJerkMag_std | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |      
+|04| tBodyAcc_mean_X | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|     
+|05| tBodyAcc_mean_Y | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|          
+|06| tBodyAcc_mean_Z | Average of Time Domain Mean of 3-axial Body Linear Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|          
+|07| tBodyAcc_std_X | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|           
+|08| tBodyAcc_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|
+|09| tBodyAcc_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|           
+|10| tGravityAcc_mean_X | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|
+|11| tGravityAcc_mean_Y | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|12| tGravityAcc_mean_Z | Average of Time Domain Mean of 3-axial Gravity Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|       
+|13| tGravityAcc_std_X | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|         
+|14| tGravityAcc_std_Y | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|15| tGravityAcc_std_Z | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|16| tBodyAccJerk_mean_X | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|      
+|17| tBodyAccJerk_mean_Y | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|       
+|18| tBodyAccJerk_mean_Z | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|       
+|19| tBodyAccJerk_std_X | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|20| tBodyAccJerk_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|      
+|21| tBodyAccJerk_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|22| tBodyGyro_mean_X | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|         
+|23| tBodyGyro_mean_Y | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|          
+|24| tBodyGyro_mean_Z | Average of Time Domain Mean of 3-axial Body Angular Velocity signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|        
+|25| tBodyGyro_std_X | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|       
+|26| tBodyGyro_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|          
+|27| tBodyGyro_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|          
+|28| tBodyGyroJerk_mean_X | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|
+|29| tBodyGyroJerk_mean_Y | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|      
+|30| tBodyGyroJerk_mean_Z | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|      
+|31| tBodyGyroJerk_std_X | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|       
+|32| tBodyGyroJerk_std_Y | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|      
+|33| tBodyGyroJerk_std_Z | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|       
+|34| tBodyAccMag_mean | Average of Time Domain Mean of 3-axial Body Linear Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|35| tBodyAccMag_std | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|           
+|36| tGravityAccMag_mean | Average of Time Domain Mean of 3-axial Gravity Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|     
+|37| tGravityAccMag_std | Average of Time Domain Standard Deviation of 3-axial Gravity Acceleration calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|        
+|38| tBodyAccJerkMag_mean | Average of Time Domain Mean of 3-axial Body Linear Acceleration derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|       
+|39| tBodyAccJerkMag_std | Average of Time Domain Standard Deviation of 3-axial Body Linear Acceleration derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: standard gravity units 'g'|   
+|40| tBodyGyroMag_mean | Average of Time Domain Mean of 3-axial Body Angular Velocity calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|          
+|41| tBodyGyroMag_std | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|         
+|42| tBodyGyroJerkMag_mean | Average of Time Domain Mean of 3-axial Body Angular Velocity derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|     
+|43| tBodyGyroJerkMag_std | Average of Time Domain Standard Deviation of 3-axial Body Angular Velocity derived Jerk signal calculated Magnitude | NUMERIC | -1.0000000e+000 to 1.0000000e+000 units: radians/second|      
 |44| fBodyAcc_mean_X | Average of Frequency Domain Mean of 3-axial Body Linear Acceleration signal in the X direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
 |45| fBodyAcc_mean_Y | Average of Frequency Domain Mean of 3-axial Body Linear Acceleration signal in the Y direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
 |46| fBodyAcc_mean_Z | Average of Frequency Domain Mean of 3-axial Body Linear Acceleration signal in the Z direction | NUMERIC | -1.0000000e+000 to 1.0000000e+000 |           
