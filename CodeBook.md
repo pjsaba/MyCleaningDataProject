@@ -26,7 +26,7 @@ Running run_analysis.R script it is generated a tidy dataset according specified
 
 Below it is shown its field list.
 
-Note: I am not sure if definitions are completely correct (sorry but I am not an expert in accelerometers and gyroscopes)...
+Note: I am not sure if definitions are completely correct (because unfortunately I am not an expert in accelerometers and gyroscopes).
 
 ||Variable Name|Definition|Variable Type|Values Supported and Units|
 |--------|------|--------------|----------|--------------|
