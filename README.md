@@ -39,7 +39,7 @@ Note: between brackets I listed the line numbers of script where actions are cod
 13. Merges subject_train, y_train (already containing activity_name) and x_train data frames [lines 55 and 56]<br />
 14. Executes steps 9 to 13 for test data set [line 59 to 72]<br />
 15. Merges vertically training and test datasets. The resulting data frame (named "tidy_data") have 10299 rows (2947 rows provided by training dataset and 7352 provided by training dataset) and 564 columns (561 features preceded by subject_id, activity_id and activity_name columns) [line 75]<br />
-16. Uses tidy_data_column_list to eliminate (by a simple subsetting operation) columns where feature name doesn't contain "mean()" and "std()" strings. Now the tidy_data data frame has 69 columns and 10299 rows [line 77]<br />
+16. Uses "tidy_data_column_list" (see step 6) to eliminate (by a simple subsetting operation) columns where feature name doesn't contain "mean()" and "std()" strings. Now the tidy_data data frame has 69 columns and 10299 rows [line 77]<br />
 17. Creates a new data frame named "second_tidy_data". The dplyr "group by" and "summarise_each" functions are used to calculate average of each variable for each activity and each subject [lines 80 and 81]<br />
 18. The "group by" function introduced a new column (named subject_activity) into second_tidy_data data frame that contains combinations of subject and activity_name columns. Furthermore mean calculation (previous step) damaged activity_name column (because it is a character variable). This step gives final shape to second_tidy_data fixing activity_name column and eliminating column introduced by "group by" function [line 85]<br />
 19. Returns to script_dir setting it as working directory [line 87]<br />
