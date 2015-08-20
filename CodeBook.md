@@ -20,7 +20,7 @@ Original Dataset can be downloaded from: https://d396qusza40orc.cloudfront.net/g
   
 To a full description of the original dataset, please refer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and read the README.txt file contained in the zip file.
 
-###Variables
+###Tidy Dataset Variables
 
 Running run_analysis.R script it is generated a tidy dataset according specified on course project instructions. 
 
