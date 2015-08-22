@@ -72,7 +72,7 @@ y_test <- cbind(subject_test, y_test)
 y_test <- cbind(y_test, x_test)
 
 # Merging vertically training and test datasets
-tidy_data <- merge(y_train, y_test, all = TRUE, sort = FALSE)
+tidy_data <- rbind(y_train, y_test)
 # Using previously created "tidy_data_column_list" vector to subset tidy_data and eliminate undesireable columns
 tidy_data <- tidy_data[, tidy_data_column_list]
 
